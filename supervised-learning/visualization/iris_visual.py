@@ -22,6 +22,8 @@ classifier.fit(train_data, train_label)
 print(test_target)
 print(classifier.predict(test_data))
 
+print(iris.feature_names, iris.target_names)
+
 # Visualization the tree
 import graphviz
 dot_data = tree.export_graphviz(classifier, out_file=None)

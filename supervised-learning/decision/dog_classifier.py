@@ -12,3 +12,4 @@ plt.hist([grey_height, lab_height], stacked=True, color=['r','b'])
 plt.show()
 
 
+
